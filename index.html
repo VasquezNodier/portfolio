@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container mx-auto max-w-[1280px] bg-emerald-500">
+    <nav class="flex justify-between items-center p-3 mt-4 rounded-3xl bg-red-500 ">
+        <div class="flex space-x-4 pl-4">
+            <div class="w-8 h-8 bg-white rounded-full"></div>
+            <div class="w-8 h-8 bg-white rounded-full"></div>
+            <div class="w-8 h-8 bg-white rounded-full"></div>
+        </div>
+        <div >
+            <ul class="flex space-x-10 items-center">
+                <li>
+                    <div class="flex flex-col items-center justify-center">
+                        <span class="w-6 h-6 bg-white rounded-full"></span>
+                        <span>Home</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex-col items-center justify-center">
+                        <span class="w-6 h-6 bg-white rounded-full"></span>
+                        <span>Experience</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex flex-col items-center justify-center">
+                        <span class="w-6 h-6 bg-white rounded-full"></span>
+                        <span>Projects</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="flex space-x-4 pr-4">
+            <div class="w-8 h-8 bg-white rounded-full"></div>
+            <div class="w-8 h-8 bg-white rounded-full"></div>
+        </div>
+    </nav>
+    <main class="bg-emerald-500">
+        <h1>main</h1>
+    </main>
+  </div>
+    
+</body>
+</html>
